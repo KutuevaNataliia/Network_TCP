@@ -10,7 +10,6 @@ public class Diagram extends JFrame {
         this.sChart = sChart;
         setBounds(640, 100,390,360);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void paint(Graphics g) {
